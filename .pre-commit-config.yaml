@@ -1,0 +1,13 @@
+repos:
+- repo: https://github.com/splnanthakumar/PreCommit-UnitTest.git
+  rev: v1.0.0
+  hooks:
+  -   id: unittest
+      name: unittest
+      entry: python -m tasks
+      language: system
+      types: [python]
+
+
+
+
