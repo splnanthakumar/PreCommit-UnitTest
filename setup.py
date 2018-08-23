@@ -5,7 +5,7 @@ from setuptools import setup
 setup(
     name='unittest-hooks',
     description='unittest',
-    url='https://github.com/pre-commit/pre-commit-hooks',
+    url='https://github.com/splnanthakumar/PreCommit-UnitTest',
     version='1.0.0',
 
     author='Nanthakumar Loganathan',
