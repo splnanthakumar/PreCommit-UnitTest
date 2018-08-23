@@ -1,0 +1,10 @@
+-   id: unittest
+    name: unittest
+    description: "Runs unittest over python tests source."
+    entry: python -m tasks
+    language: python
+    types: [python]
+    args: [--branch, --coverage]
+    # for backward compatibility
+    files: ''
+    minimum_pre_commit_version: 1.0.0
